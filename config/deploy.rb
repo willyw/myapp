@@ -1,6 +1,6 @@
 set :application, "qtiest.com"
 set :user, "app"
-set :use_sudo, false
+set :use_sudo, true
 
 set :repository,  "git@github.com:willyw/myapp.git"
 set :deploy_to, "/var/www/#{application}"
